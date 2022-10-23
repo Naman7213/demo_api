@@ -6,7 +6,7 @@ const apiData = require("./data.json");
 
 app.use(cors());
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("Type /api after the url to get the response");
 });
 
 app.get("/api", (req, res) => {
